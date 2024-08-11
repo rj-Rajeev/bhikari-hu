@@ -81,7 +81,7 @@ const Navbar = () => {
               id="dropdown"
               className={`z-10 ${
                 clicked ? "" : "hidden"
-              } bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 absolute right-20 top-16`}
+              } bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 absolute right-20 top-16 z-10`}
             >
               <ul
                 className="py-2 text-sm text-gray-700 dark:text-gray-200"

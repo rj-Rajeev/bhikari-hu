@@ -39,5 +39,6 @@ const authOptions = NextAuth({
     },
   },
 });
+console.log(process.env.GITHUB_ID);
 
 export { authOptions as GET, authOptions as POST };

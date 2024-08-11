@@ -53,7 +53,7 @@ const CreateOrder = ({ params }) => {
       name: session?.user.name,
       description: `${message}`,
       order_id: order.id,
-      callback_url: "http://localhost:3000/", // Your success URL
+      callback_url: "https://bhikari-hu.vercel.app/", // Your success URL
       prefill: {
         name: session?.user.name,
         email: session?.user.email,
